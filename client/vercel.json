@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://airbnb-clone-ntwf.onrender.com" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
